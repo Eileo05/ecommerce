@@ -1,3 +1,7 @@
+import Image from "../assets/logo.png";
+import { BsCartDash, BsSearch } from "react-icons/bs";
+import "./index.css"
+import Footer from "../footer";
 
 
 function App() {
@@ -5,12 +9,34 @@ function App() {
 
   return (
     <>
-      <div>
+      <div id="container">
+        <div id="componet1">
 
-        <h1>ola</h1>
+          <img src={Image} alt="logo" />
+
+          <input type="text" placeholder="Pesquisar produto... "/>
+          <a>Cadastre-se</a>
+          <button type="button">Entrar</button>
+          
+          <BsCartDash className="icon" />
+         
+         
+        </div>
+
+        <div id="componet2">
+          <a>Home</a>
+          <a>Produtos</a>
+          <a>Categoria</a>
+          <a>Meus Pedidos</a>
+
 
         </div>
+
+
+      </div>
+
       
+      <Footer/>
     </>
   )
 }
