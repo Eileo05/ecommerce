@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -11,12 +14,11 @@
     grid-template-columns: auto auto auto auto;
     color: #FFFFFF;
     background-color: #1F1F1F;
+    font-family: "Inter", sans-serif;
 }
 
 #componet-footer1{
     margin-top: 70px;
-    gap:10px
-
 
 }
 
@@ -24,16 +26,30 @@
    font-size: 16px;
    font-weight: 400px;
    width: 20vw;
+   margin-top: 35px;
    
 } 
 
+.icons{
+    margin: 40px 8px 0 0;
+    width: 20px;
+    height: 20px;
+}
+
+.icons:hover{
+   color:#C92071;
+}
 
 .componet_footer2{
     margin-top: 70px;
+
 
     display: flex;
     flex-direction: column;
     cursor: pointer;
     gap:10px
-   
+}
+
+.componet_footer2 a:hover{
+   color:#C92071;
 }

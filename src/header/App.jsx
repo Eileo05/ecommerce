@@ -1,7 +1,6 @@
 import Image from "../assets/logo.png";
 import { BsCartDash, BsSearch } from "react-icons/bs";
-import "./index.css"
-import Footer from "../footer";
+import "./index.css";
 
 
 function App() {
@@ -36,7 +35,7 @@ function App() {
       </div>
 
       
-      <Footer/>
+      
     </>
   )
 }
