@@ -3,6 +3,10 @@ import "./index.css"
 import Header from "../header/App";
 import Footer from "../footer/index";
 import Image from "../assets/Group 53660.png";
+import imgCard1 from "../assets/card1.png";
+import imgCard2 from "../assets/card2.png";
+import imgCard3 from "../assets/card3.png";
+
 
 
 
@@ -42,26 +46,42 @@ function Home() {
 
                     <div id="cards">
                         <div className="card">
-                            <p>30% OFF</p>
-                            <span>Novo drop
-                                Supreme</span>
-                            <button type="button">Comprar</button>
+                            <div className="text-card">
+                                <p>30% OFF</p>
+                                <span>Novo drop
+                                    Supreme</span>
+                                <button type="button">Comprar</button>
+                            </div>
+                             
+                            <img src={imgCard1} />
+
+                              
 
                         </div>
 
                         <div className="card">
-                            <p>30% OFF</p>
-                            <span>Coleção
-                                Adidas</span>
-                            <button type="button">Comprar</button>
+                            <div className="text-card">
+                                <p>30% OFF</p>
+                                <span>Coleção
+                                    Adidas</span>
+                                <button type="button">Comprar</button>
+                            </div>
+
+                            <img src={imgCard2} />
+
 
                         </div>
 
                         <div className="card">
-                            <p>30% OFF</p>
-                            <span>Novo
-                                Beats Bass</span>
-                            <button type="button">Comprar</button>
+                            <div className="text-card">
+                                <p>30% OFF</p>
+                                <span>Novo
+                                    Beats Bass</span>
+                                <button type="button">Comprar</button>
+                            </div>
+
+                            <img src={imgCard3} />
+
 
                         </div>
                     </div>
