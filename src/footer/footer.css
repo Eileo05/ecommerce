@@ -8,13 +8,21 @@
 }
 
 #container_footer{
-    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+#footer{
+   
     display: grid;
     justify-content: space-around;
     grid-template-columns: auto auto auto auto;
-    color: #FFFFFF;
-    background-color: #1F1F1F;
-    font-family: "Inter", sans-serif;
+    margin-bottom: 23px;
+    
 }
 
 #componet-footer1{
@@ -24,7 +32,6 @@
 
 #componet-footer1 p{
    font-size: 16px;
-   font-weight: 400px;
    width: 20vw;
    margin-top: 35px;
    
@@ -42,14 +49,19 @@
 
 .componet_footer2{
     margin-top: 70px;
-
-
+    width: 19vw;
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    gap:10px
+    gap:20px
 }
 
 .componet_footer2 a:hover{
    color:#C92071;
+}
+
+.final{
+    text-align: center;
+    width: 100%;
+    margin:23px 0 23px 0 ;
 }

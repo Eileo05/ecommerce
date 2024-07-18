@@ -29,10 +29,8 @@
    border: none;
    background-color:#F8F8F8;
    color: #666666;
-}
-
-#componet1 input::placeholder{
-padding-left: 10px;
+   outline: 0;
+   padding: 10px;
 }
 
 #componet1 a{
