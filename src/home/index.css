@@ -50,6 +50,8 @@
     height: 48px;
     background-color: #C92071;
     color: #F5F5F5;
+    font-weight: 700;
+
 }
 
 .text-carrosel1 button:hover {
@@ -98,6 +100,7 @@
     height: 48px;
     color: #C92071;
     font-size: 16px;
+    font-weight: 700;
     border-radius: 8px;
     border: none;
 }
