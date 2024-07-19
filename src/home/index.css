@@ -196,3 +196,34 @@
     cursor: pointer;
 
 }
+
+#text-header-card {
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 123px 0 0 50px;
+}
+
+#text-header-card h2 {
+    font-size: 24px;
+    color: #474747;
+}
+
+#text-header-card a {
+    cursor: pointer;
+    font-size: 18px;
+    color: #C92071;
+    font-weight: 400;
+}
+
+#card-home{
+    margin-bottom: 108px;
+}
+
+.card-home{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 28px;
+    margin-left: 50px;
+}

@@ -1,50 +1,67 @@
-#card-container{
-    margin-top:123px ;
-
-}
-
-#text-header-card{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    padding: 10px;
-}
-
-#text-header-card h2{
-    font-size: 24px;
-    color:#474747;
-}
-
-#text-header-card a {
-    cursor: pointer;
-    font-size: 18px;
-    color: #C92071;
-}
-
-#card-prod-container{
+#card-container {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif ;
     margin-top: 20px;
 }
 
-.card-prod{
+#cards-produtos{
+    display: flex;
+    gap: 28px;
+}
+
+
+#card-prod-container {
+    margin-top: 20px;
+}
+
+.card-prod {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    margin-left: 20px;
 }
 
-.card-part1{
-    background-color:#FFFFFF ;
-    width: 292px;
+.card-prod p {
+    font-size: 12px;
+    color: #8F8F8F;
+}
+
+.card-prod h3 {
+    font-size: 20px;
+    color:#474747;
+}
+
+#preco{
+    font-size: 20px;
+    color: #1F1F1F;
+    font-weight: 700;
+}
+
+#preco::before{
+   text-decoration: line-through;
+   content:"$200";
+   color:#8F8F8F;
+   margin-right:5px;
+   font-weight: 400;
+
+}
+
+.card-part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin-bottom: 8px;
+    width: 265px;
     height: 321px;
-    filter: drop-shadow(0px 0px 8px   rgb(217, 216, 216) );
-    align-items: left;
+    filter: drop-shadow(0px 0px 8px rgb(217, 216, 216));
+    
 }
 
-.card-part1 span{
+.card-part1 span {
     background-color: #E7FF86;
     padding: 5px;
+    width: 86px;
     border-radius: 29px;
+    margin-left:20px;
 }
-
-
-

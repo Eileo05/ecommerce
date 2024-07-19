@@ -9,6 +9,8 @@ import imgCard2 from "../assets/card2.png";
 import imgCard3 from "../assets/card3.png";
 import { IoShirtOutline } from "react-icons/io5";
 import { PiBaseballCap, PiSneakerMoveLight, PiPants } from "react-icons/pi";
+import { IoIosArrowRoundForward } from "react-icons/io";
+
 import { LuHeadphones } from "react-icons/lu";
 
 
@@ -139,11 +141,30 @@ function Home() {
 
                 </section>
 
+                <section id="card-home">
+                    <div id="text-header-card">
+                        <h2>Produtos em alta</h2>
+                        <a>Ver todos <IoIosArrowRoundForward />
+                        </a>
+                    </div>
+
+                    <div className="card-home">
+                    <CardProd />
+                    <CardProd />
+                    <CardProd />
+                    <CardProd />
+                    <CardProd />
+                    <CardProd />
+                    </div>
+                   
+                </section>
+
             </div>
 
-            <CardProd/>
+           
 
-            {/* <Footer /> */}
+
+            <Footer />
 
 
         </>
