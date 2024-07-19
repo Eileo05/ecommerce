@@ -2,6 +2,7 @@
 import "./index.css"
 import Header from "../header/App";
 import Footer from "../footer/index";
+import CardProd from "../cardsProd";
 import Image from "../assets/Group 53660.png";
 import imgCard1 from "../assets/card1.png";
 import imgCard2 from "../assets/card2.png";
@@ -140,7 +141,9 @@ function Home() {
 
             </div>
 
-            <Footer />
+            <CardProd/>
+
+            {/* <Footer /> */}
 
 
         </>
