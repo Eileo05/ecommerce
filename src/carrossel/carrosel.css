@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+#carrosel1 {
+    margin-top: 32px;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    background-color: #F5F5F5;
+    font-family: "Inter", sans-serif ;
+    font-weight: 700;
+}
+
+.text-carrosel1 {
+    margin-left: 50px;
+    gap: 20px;
+    max-width: 35vw;
+}
+
+.text-carrosel1 span {
+    font-size: 16px;
+    color: #F6AA1C;
+}
+
+.text-carrosel1 h2 {
+    font-size: 55px;
+    font-weight: 800;
+    color: #1F1F1F;
+}
+
+.text-carrosel1 p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #474747;
+}
+
+.text-carrosel1 button {
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    width: 214px;
+    height: 48px;
+    background-color: #C92071;
+    color: #F5F5F5;
+    font-weight: 700;
+
+}
+
+.text-carrosel1 button:hover {
+    background-color: #9b1254;
+}
