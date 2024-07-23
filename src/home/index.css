@@ -179,7 +179,7 @@
 
 .card-home{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto;
     gap: 28px;
     margin-left: 50px;
 }

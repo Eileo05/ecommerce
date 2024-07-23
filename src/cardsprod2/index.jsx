@@ -1,8 +1,8 @@
 import image from "../assets/layer.png";
-import "./cards.css"
+import "./card.css"
 
 
-function CardProd({titulo,descricao,valor,foto,desconto}) {
+function CardProd2({titulo,descricao,valor}) {
        
     return (
         <div id="card-container">
@@ -10,7 +10,7 @@ function CardProd({titulo,descricao,valor,foto,desconto}) {
                 <div id="card-prod-container">
                     <div className="card-prod">
                         <div className="card-part1">
-                            <span>{desconto} </span>
+                        
                             <img src={image} alt="tenis" />
                         </div>
                         <p>{titulo}Tênis</p>
@@ -25,4 +25,4 @@ function CardProd({titulo,descricao,valor,foto,desconto}) {
     )
 }
 
-export default CardProd;
+export default CardProd2;

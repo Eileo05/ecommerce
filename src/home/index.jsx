@@ -4,6 +4,7 @@ import Carrosel1 from "../carrossel";
 import Header from "../header/App";
 import Footer from "../footer/index";
 import CardProd from "../cardsProd";
+import CardProd2 from "../cardsprod2";
 import imgCard1 from "../assets/card1.png";
 import imgCard2 from "../assets/card2.png";
 import imgCard3 from "../assets/card3.png";
@@ -13,6 +14,7 @@ import { PiBaseballCap, PiSneakerMoveLight, PiPants } from "react-icons/pi";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 import { LuHeadphones } from "react-icons/lu";
+
 
 
 
@@ -128,12 +130,18 @@ function Home() {
                     </div>
 
                     <div className="card-home">
-                        <CardProd />
-                        <CardProd />
-                        <CardProd />
-                        <CardProd />
-                        <CardProd />
-                        <CardProd />
+                        <CardProd desconto="30% OFF" />
+                        <CardProd desconto="30% OFF" />
+                        <CardProd2 />
+                        <CardProd2 />
+                        <CardProd2 />
+                        <CardProd2 />
+                        <CardProd2 />
+                        <CardProd2 />
+                        <CardProd2 />
+                        <CardProd2 />
+                        <CardProd2 />
+                        <CardProd2 />
                     </div>
 
                 </section >

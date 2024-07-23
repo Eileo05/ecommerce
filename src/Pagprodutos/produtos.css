@@ -1,0 +1,60 @@
+section{
+    margin-top: 40px;
+}
+
+#header-fltro-produto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 45px 0 55px;
+
+}
+
+.texto-header{
+    display: flex;
+}
+
+.texto-header p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.texto-header span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+}
+
+.select{
+    padding: 10px;
+}
+
+.select option{
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+}
+
+.container-filtro-produto{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.filtro{
+    border: solid 1px red;
+    width: 30vw;
+}
+
+.marka{
+    display: flex;
+    flex-direction: column;
+}
+
+.produto{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 40vw;
+    gap: 10px;
+
+}
