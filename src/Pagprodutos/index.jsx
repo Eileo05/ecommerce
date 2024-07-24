@@ -34,72 +34,87 @@ function Produtos() {
                         <p>Filtrar por</p>
                         <hr></hr>
                         <div className="filtros">
-                            <div className="marka">
+                            <div className="categorias-produto">
                                 <p>Marka</p>
-                                <div>
-                                <input type="checkbox" />
-                                <label for="adidas">Adiddas</label>
+                                <div className="check">
+                                    <input type="checkbox" />
+                                
+                                    <label for="adidas">Adiddas</label>
                                 </div>
-                                <div>
-                                <input type="checkbox" />
-                                <label for="Calenciaga">Calenciaga</label>
+                                <div className="check">
+                                    <input type="checkbox" />
+                                   
+                                    <label for="Calenciaga">Calenciaga</label>
                                 </div>
-                                <div>
-                                <input type="checkbox" />
-                                <label for="K-Swiss">K-Swiss</label>
+                                <div className="check">
+                                    <input type="checkbox" />
+                                  
+                                    <label for="K-Swiss">K-Swiss</label>
                                 </div>
-                                <div>
-                                <input type="checkbox" />
-                                <label for="Nike">Nike</label>
+                                <div className="check">
+                                    <input type="checkbox" />
+                                   
+                                    <label for="Nike">Nike</label>
                                 </div>
-                                <div>
-                                <input type="checkbox" />
-                                <label for="Puma">Puma</label>
-                                </div>     
+                                <div className="check">
+                                    <input type="checkbox" />
+                                    
+                                    <label for="Puma">Puma</label>
+                                </div>
                             </div>
 
-                            <div className="marka">
+                            <div className="categorias-produto">
                                 <p>Categoria</p>
-                                <div> <input type="checkbox" />
-                                <label for="Esporte e lazer">Esporte e lazer</label></div>
-                                <div>
-                                <input type="checkbox" />
-                                <label for="Casual">Casual</label>
+                                <div className="check">
+                                    <input type="checkbox" />
+                                    
+                                    <label for="Esporte e lazer">Esporte e lazer</label></div>
+                                <div className="check">
+                                    <input type="checkbox" />
+                                   
+                                    <label for="Casual">Casual</label>
                                 </div>
-                                <div>
-                                <input type="checkbox" />
-                                <label for="Utilitário">Utilitário</label>
+                                <div className="check">
+                                    <input type="checkbox" />
+                                   
+                                    <label for="Utilitário">Utilitário</label>
                                 </div>
-                                <div>
-                                <input type="checkbox" />
-                                <label for="Corrida">Corrida</label>
+                                <div className="check">
+                                    <input type="checkbox" />
+                                  
+                                    <label for="Corrida">Corrida</label>
                                 </div>
                             </div>
 
-                            <div className="marka">
+                            <div className="categorias-produto">
                                 <p>Gênero</p>
-                                <div><input type="checkbox" />
-                                <label for="Masculino">Masculino</label></div>
-                                <div> <input type="checkbox" />
-                                <label for="Feminino">Feminino</label></div>
-                                <div>
-                                <input type="checkbox" />
-                                <label for="Unisex">Unisex</label>
+                                <div className="check">
+                                    <input type="checkbox" />
+                                    
+                                    <label for="Masculino">Masculino</label></div>
+                                <div className="check"> 
+                                    <input type="checkbox" />
+                                    
+                                    <label for="Feminino">Feminino</label></div>
+                                <div className="check">
+                                    <input type="checkbox" />
+                    
+                                    <label for="Unisex">Unisex</label>
 
                                 </div>
                             </div>
 
-                            <div className="marka">
+                            <div className="categorias-produto">
                                 <p>Estado</p>
-                                <div>
-                                <input type="radio" id="novo" name="fav_language" value="novo" />
-                                <label for="Novo">Novo</label>
+                                <div className="check">
+                                    <input type="radio" id="novo" name="fav_language" value="novo" />
+                                    <label for="Novo">Novo</label>
                                 </div>
-                                <div>
-                                <input type="radio" id="usado" name="fav_language" value="usado" />
-                                <label for="Usado">Usado</label>
+                                <div className="check">
+                                    <input type="radio" id="usado" name="fav_language" value="usado" />
+                                    <label for="Usado">Usado</label>
                                 </div>
-    
+
                             </div>
 
 

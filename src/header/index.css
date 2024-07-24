@@ -7,11 +7,13 @@
 }
 #container {
     margin-top: 34px;
+    height: 25vh;
     display: flex;
     justify-content: left;
     flex-direction: column;
     color: #474747 ;
     font-family: "Inter", sans-serif;;
+    background-color: #FFFFFF;
    
 }
 
