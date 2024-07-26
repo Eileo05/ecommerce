@@ -7,11 +7,13 @@
 }
 #container {
     margin-top: 34px;
+    height: 25vh;
     display: flex;
     justify-content: left;
     flex-direction: column;
     color: #474747 ;
     font-family: "Inter", sans-serif;;
+    background-color: #FFFFFF;
    
 }
 
@@ -33,10 +35,27 @@
    padding: 10px;
 }
 
-#componet1 a{
-   
-    text-decoration:underline;
-    cursor: pointer;
+.link{
+   color: #474747;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.linkHeader{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 32px;
+    text-decoration: none;
+    
+
+}
+
+.linkHeader:hover{
+    text-decoration: underline;
+    color: #C92071;
+    font-weight: bold;
+
 }
 
 #componet1 button{
@@ -62,15 +81,6 @@
     cursor:pointer;
 }
 
-#componet2 a{
-    margin-right: 32px;
-}
-
-#componet2 a:hover{
-    text-decoration: underline;
-    color: #C92071;
-    font-weight: bold;
-}
 
 .icon{
     width: 19px;

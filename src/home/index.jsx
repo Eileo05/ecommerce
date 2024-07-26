@@ -1,12 +1,14 @@
 
 import "./index.css"
+import Carrosel1 from "../carrossel";
 import Header from "../header/App";
 import Footer from "../footer/index";
 import CardProd from "../cardsProd";
-import Image from "../assets/Group 53660.png";
+import CardProd2 from "../cardsprod2";
 import imgCard1 from "../assets/card1.png";
 import imgCard2 from "../assets/card2.png";
 import imgCard3 from "../assets/card3.png";
+import imageOferta from "../assets/Laye1.png"
 import { IoShirtOutline } from "react-icons/io5";
 import { PiBaseballCap, PiSneakerMoveLight, PiPants } from "react-icons/pi";
 import { IoIosArrowRoundForward } from "react-icons/io";
@@ -19,37 +21,16 @@ import { LuHeadphones } from "react-icons/lu";
 
 
 
+
 function Home() {
-
-
     return (
         <>
             <Header />
 
             <div id="container-home">
 
-
-                <section id="componet1-home">
-
-                    <div id="carrosel1">
-
-                        <div className="text-carrosel1">
-                            <span>Melhores ofertas personalizadas</span>
-                            <h2>Queima de stoque Nike 🔥</h2>
-                            <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
-                            <button type="button">Ver Ofertas</button>
-                        </div>
-
-                        <div className="img-corresel1">
-
-                            <img src={Image} id="image1" />
-
-                        </div>
-                    </div>
-
-
-                </section>
-
+                    <Carrosel1/>
+                
                 <section id="componet2-home">
                     <h2>Coleções em destaque</h2>
 
@@ -149,19 +130,41 @@ function Home() {
                     </div>
 
                     <div className="card-home">
-                    <CardProd />
-                    <CardProd />
-                    <CardProd />
-                    <CardProd />
-                    <CardProd />
-                    <CardProd />
+                        <CardProd desconto="30% OFF" />
+                        <CardProd desconto="30% OFF" />
+                        <CardProd2 />
+                        <CardProd2 />
+                        <CardProd2 />
+                        <CardProd2 />
+                        <CardProd2 />
+                        <CardProd2 />
+                        <CardProd2 />
+                        <CardProd2 />
+                        <CardProd2 />
+                        <CardProd2 />
                     </div>
-                   
+
+                </section >
+
+                <section id="ofertas">
+
+                    <div className="imagemOferta">
+                        <img src={imageOferta} />
+                    </div>
+
+                    <div className="textoOferta">
+                        <p>Oferta especial</p>
+                        <h3>Air Jordan edição de
+                            colecionador</h3>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</span>
+                        <button type="button">Ver Oferta</button>
+                    </div>
+
                 </section>
 
-            </div>
+            </div >
 
-           
+
 
 
             <Footer />
