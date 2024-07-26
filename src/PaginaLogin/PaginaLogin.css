@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container1{
+    background-color: #B5B6F2;
+   display: flex;
+   flex-direction: column; 
+   font-family: "Inter" , sans-serif;
+}
+.header img{
+    width: 145px;
+    height: 25px;
+    margin: 0 0 0px 40px;
+
+}
+.header{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+.inputs{
+    background-color: white;
+    border-radius: 1%;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.imageSapato {
+    width: 500px;
+    height: 500px;
+    margin-top: 75px;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.icons-login{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 350px;
+    margin-top: 15px;
+}
+.icons-login img{
+    margin-right: 10px;
+    width: 17px;
+    height: 17px;
+}
+.text{
+    width: 450px;
+    height: 450px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.primeira{
+    margin-bottom: 20px;
+    width: 70%;
+}
+.primeira p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #474747;
+}
+.primeira a{
+    color: #474747;
+}
+.segunda{
+    margin-bottom: 20px;
+}
+.terceira{
+    margin-bottom: 30px;
+}
+.quarta button{
+    background-color: #c92071;
+    color: #f7f7fc;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+    padding: 10px;
+    border-radius: 4px;
+}
+.segunda label{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.segunda input{
+    width: 75%;
+    height: 35px;
+    border: none;
+    background-color: #FFFFFF;
+}
+.terceira a{
+    color: #474747;
+    font-size: 14px;
+}
+.icons-login p{
+    color: #474747;
+    font-size: 16px;
+    margin-right: 20px;
+
+}
