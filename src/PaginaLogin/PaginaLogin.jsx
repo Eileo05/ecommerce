@@ -1,4 +1,5 @@
 import "../PaginaLogin/PaginaLogin.css";
+import { Link } from "react-router-dom";
 import Image from "../assets/logo.png";
 import Image2 from "../assets/sapatos.png";
 import Footer from "../footer/index"
@@ -14,7 +15,9 @@ function PaginaLogin() {
         <div id="container1">
 
             <div className="header">
-                <div className="img"><img src={Image} alt="logo" /></div>
+                <Link to="/" className="link">
+                    <div className="img"><img src={Image} alt="logo" /></div>
+                </Link>
             </div>
 
             <div className="container2">
@@ -45,10 +48,10 @@ function PaginaLogin() {
 
                         <div className="icons-login">
                             <p>Ou faça login com </p>
-                           <div>
-                           <img src={Image3} alt="" />
-                           <img src={Image4} alt="" />
-                           </div>
+                            <div>
+                                <img src={Image3} alt="" />
+                                <img src={Image4} alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>
