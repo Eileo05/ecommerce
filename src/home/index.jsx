@@ -1,6 +1,6 @@
 
 import "./index.css"
-import Carrosel1 from "../carrossel";
+import Carrosel1 from "../carrossel/index";
 import Header from "../header/App";
 import Footer from "../footer/index";
 import CardProd from "../cardsProd";

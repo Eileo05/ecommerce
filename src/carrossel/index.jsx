@@ -1,13 +1,14 @@
+
 import Image from "../assets/Group 53660.png";
-import Carousel from 'react-bootstrap/Carousel';
+
 
 import "./carrosel.css"
 
 function Carrosel() {
     return (
         <section id="componet1-home">
-        
-                <div id="carrosel1">
+
+            <div id="carrosel1">
                     <div className="text-carrosel1">
                         <span>Melhores ofertas personalizadas</span>
                         <h2>Queima de stoque Nike 🔥</h2>
@@ -20,7 +21,7 @@ function Carrosel() {
                         <img src={Image} id="image1" />
 
                     </div>
-                
+
                 </div>
         </section>
 
@@ -28,3 +29,4 @@ function Carrosel() {
 }
 
 export default Carrosel;
+
