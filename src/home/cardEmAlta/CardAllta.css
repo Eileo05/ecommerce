@@ -1,0 +1,35 @@
+
+#card-home{
+    margin-bottom: 200px;
+}
+
+.card-home{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 28px;
+    margin-left: 50px;
+}
+
+#text-header-card {
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 123px 0 0 50px;
+}
+
+#text-header-card h2 {
+    font-size: 24px;
+    color: var(--dark-gray-2);
+}
+
+#text-header-card a {
+    cursor: pointer;
+    font-size: 18px;
+    color: var(--primary);
+    font-weight: 400;
+}
+
+#text-header-card a:hover {
+    color:#9b1254;
+}

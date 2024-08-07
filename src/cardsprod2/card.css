@@ -23,24 +23,24 @@
 
 .card-prod p {
     font-size: 12px;
-    color: #8F8F8F;
+    color: var(--light-gray-4);
 }
 
 .card-prod h3 {
     font-size: 20px;
-    color:#474747;
+    color:var( --dark-gray-2);
 }
 
 #preco{
     font-size: 20px;
-    color: #1F1F1F;
+    color: var( --dark-gray);
     font-weight: 700;
 }
 
 #preco::before{
    text-decoration: line-through;
    content:"$200";
-   color:#8F8F8F;
+   color:var(--light-gray);
    margin-right:5px;
    font-weight: 400;
 
@@ -50,7 +50,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #FFFFFF;
+    background-color: var(--white);
     margin-bottom: 8px;
     width: 265px;
     height: 321px;

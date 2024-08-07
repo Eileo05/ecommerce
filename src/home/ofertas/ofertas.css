@@ -1,0 +1,56 @@
+
+#ofertas{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    margin: 20px 0 106px 0;
+}
+
+.textoOferta{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    gap: 20px;
+}
+
+.textoOferta p{
+    font-size: 14px;
+    color: var(--primary);
+}
+
+.textoOferta h3{
+font-size: 48px;
+color: var( --dark-gray-2);
+}
+
+.textoOferta span{
+    font-size: 16px;
+color: var( --dark-gray-2);
+font-weight: 400;
+}
+
+.textoOferta button{
+    width: 200px;
+    height: 40px;
+    background-color: var(--primary);
+    color: var(--light-gray-3);
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+}
+
+.textoOferta button:hover{
+    background-color: #9b1254;
+}
+
+
+.imagemOferta{
+    width: 40vw;
+    filter: drop-shadow(0px 0px 40px   rgb(198, 197, 197) );
+
+}
+
+.imagemOferta img{
+    width: 40vw;
+}

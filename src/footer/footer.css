@@ -10,8 +10,8 @@
 #container_footer{
     display: flex;
     flex-direction: column;
-    background-color: #1F1F1F;
-    color: #FFFFFF;
+    background-color: var(--dark-gray);
+    color: var(--white);
     font-family: "Inter", sans-serif;
     font-weight: 400;
 }
@@ -44,7 +44,7 @@
 }
 
 .icons:hover{
-   color:#C92071;
+   color:var(--primary);
 }
 
 .componet_footer2{
@@ -57,7 +57,7 @@
 }
 
 .componet_footer2 a:hover{
-   color:#C92071;
+   color:var(--primary);
 }
 
 .final{
