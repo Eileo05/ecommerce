@@ -57,7 +57,7 @@
 }
 
 .componet_footer2 a:hover{
-   color:var(--primary);
+   color:var(--primary) !important;
 }
 
 .final{

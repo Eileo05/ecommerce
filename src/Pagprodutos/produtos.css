@@ -36,7 +36,9 @@ section {
 }
 
 .select {
-    padding: 10px;
+    width: 25vw;
+    border: solid 1px;
+   
 }
 
 .select option {

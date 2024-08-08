@@ -2,6 +2,7 @@ import "./CardAllta.css"
 import CardProd from "../../cardsProd";
 import CardProd2 from "../../cardsprod2";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import {Link} from "react-router-dom";
 
 
 function ProdutoEmAlta(){
@@ -9,8 +10,8 @@ function ProdutoEmAlta(){
         <section id="card-home">
         <div id="text-header-card">
             <h2>Produtos em alta</h2>
-            <a>Ver todos <IoIosArrowRoundForward />
-            </a>
+            <Link className="linkEmAlta" to="/produtos">Ver todos <IoIosArrowRoundForward />
+            </Link>
         </div>
 
         <div className="card-home">

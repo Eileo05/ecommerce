@@ -5,7 +5,9 @@ import Image from "../assets/Group 53660.png";
 import "./carrosel.css"
 
 function Carrosel() {
+   
     return (
+
         <section id="componet1-home">
 
             <div id="carrosel1">
@@ -23,10 +25,12 @@ function Carrosel() {
                     </div>
 
                 </div>
+
         </section>
 
     )
 }
 
 export default Carrosel;
+
 

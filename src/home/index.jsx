@@ -1,19 +1,21 @@
 
 import "./index.css"
-import Carrosel1 from "../carrossel/index";
+// import Carrosel1 from "../carrossel/index";
 import Header from "../header/App";
 import Footer from "../footer/index";
 import ProdutoEmAlta from "./cardEmAlta";
 import CardHome2 from "./sectionCardDestaque";
 import Colecao from "./sectionColecao";
 import Oferta from "./ofertas";
+import ControlledCarousel from "../carrossel/carroselbootstrap/caroselBootstrap";
+
 
 
 function Home() {
     return (
         <div id="container-home">
             <Header />
-            <Carrosel1 />
+            <ControlledCarousel />
             <CardHome2 />
             <Colecao />
             <ProdutoEmAlta />

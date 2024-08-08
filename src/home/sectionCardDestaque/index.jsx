@@ -20,8 +20,6 @@ function CardHome2(){
 
                             <img src={imgCard1} />
 
-
-
                         </div>
 
                         <div className="card">

@@ -8,6 +8,7 @@
 
 #componet3-home h2{
     font-size: 24px;
+    font-weight: 700;
     color: var( --dark-gray-2);
     margin-bottom: 20px;
 }
