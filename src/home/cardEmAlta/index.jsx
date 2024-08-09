@@ -1,6 +1,6 @@
 import "./CardAllta.css"
-import CardProd from "../../cardsProd";
-import CardProd2 from "../../cardsprod2";
+import CardProd from "../../componentes/cardsProd/index";
+import CardProd2 from "../../componentes/cardsprod2/index";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import {Link} from "react-router-dom";
 

@@ -1,10 +1,12 @@
 import "../PaginaLogin/PaginaLogin.css";
+import HeaderMenor from "../componentes/headerMenor/index";
 import { Link } from "react-router-dom";
-import Image from "../assets/logo.png";
-import Image2 from "../assets/sapatos.png";
-import Footer from "../footer/index"
+import Image2 from "../assets/dois_tenis_nike.png";
+import Footer from "../componentes/footer/index"
 import Image3 from "../assets/gmailicon.jpeg"
 import Image4 from "../assets/fbicon.png"
+
+
 
 
 
@@ -14,21 +16,17 @@ function PaginaLogin() {
     return (
         <div id="container1">
 
-            <div className="header">
-                <Link to="/" className="link">
-                    <div className="img"><img src={Image} alt="logo" /></div>
-                </Link>
-            </div>
+          <HeaderMenor/>
 
             <div className="container2">
-                <div className="inputs">
+                <form className="form">
                     <div className="text">
-                        <div className="primeira">
+                        <div className="primeiro_text">
                             <h2>Acesse sua conta</h2>
-                            <p>Novo cliente? Então registre-se <a href="">aqui</a></p>
+                            <p>Novo cliente? Então registre-se <Link className="link" to="/Cadastro">aqui</Link></p>
                         </div>
 
-                        <div className="segunda">
+                        <div className="segundo_text">
                             <label htmlFor="">Login *</label>
                             <br />
                             <input type="text" placeholder=" Insira seu login ou e-mail" /> <br />
@@ -38,7 +36,7 @@ function PaginaLogin() {
                             <br />
                         </div>
 
-                        <div className="terceira">
+                        <div className="esqueciSenha">
                             <a href="">Esqueci minha senha</a>
                         </div>
 
@@ -48,13 +46,13 @@ function PaginaLogin() {
 
                         <div className="icons-login">
                             <p>Ou faça login com </p>
-                            <div>
-                                <img src={Image3} alt="" />
-                                <img src={Image4} alt="" />
-                            </div>
+
+                            <img src={Image3} alt="" />
+                            <img src={Image4} alt="" />
+
                         </div>
                     </div>
-                </div>
+                </form>
 
                 <div className="sapatos">
                     <img className="imageSapato" src={Image2} alt="sapatos" />

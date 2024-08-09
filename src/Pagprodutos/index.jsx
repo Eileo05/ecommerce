@@ -1,8 +1,8 @@
 import "./produtos.css";
-import Header from "../header/App";
-import Footer from "../footer/index";
-import CardProd from "../cardsProd";
-import CardProd2 from "../cardsprod2";
+import Header from "../componentes/header/App";
+import Footer from "../componentes/footer/index";
+import CardProd from "../componentes/cardsProd/index";
+import CardProd2 from "../componentes/cardsprod2/index";
 
 import Form from 'react-bootstrap/Form';
 

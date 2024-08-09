@@ -6,111 +6,109 @@
     box-sizing: border-box;
 }
 #container1{
-    background-color: #B5B6F2;
+    background-color: var(--secondary);
    display: flex;
    flex-direction: column; 
    font-family: "Inter" , sans-serif;
 }
-.header img{
-    width: 145px;
-    height: 25px;
-    margin: 0 0 0px 40px;
 
-}
-.header{
-    background-color: white;
-    height: 50px;
-    display: flex;
-    align-items: center;
-
-}
-.inputs{
-    background-color: white;
-    border-radius: 1%;
-    width: 400px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 35px;
-}
-
-.imageSapato {
-    width: 500px;
-    height: 500px;
-    margin-top: 75px;
-}
 .container2{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
 
-}
-.icons-login{
+.form{
+    background-color:var(--white);
+    border-radius: 1%;
+    width: 400px;
+    height: 450px;
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    width: 350px;
-    margin-top: 15px;
+    flex-direction: column;
 }
-.icons-login img{
-    margin-right: 10px;
-    width: 17px;
-    height: 17px;
+
+.imageSapato {
+    width: 500px;
+    height: 600px;
+    margin: 75px 0 20px 0;
 }
+
 .text{
     width: 450px;
     height: 450px;
     margin-left: 30px;
     margin-top: 30px;
 }
-.primeira{
-    margin-bottom: 20px;
-    width: 70%;
-}
-.primeira p{
+
+.primeiro_text p{
     margin-top: 10px;
     font-size: 14px;
     font-weight: 400;
-    color: #474747;
+    color:var(--dark-gray-2);
 }
-.primeira a{
-    color: #474747;
+
+.segundo_text label{ 
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--dark-gray-2);
 }
-.segunda{
-    margin-bottom: 20px;
+
+.segundo_text input{
+    width: 75%;
+    height: 40px;
+   outline: 0;
+    border-radius: 8px;
+    border: none;
+    background-color:var(--light-gray-4);
+   color: var(--dark-gray-3);
+    margin: 10px 0 10px 0;
+    padding: 10px;
 }
+
 .terceira{
-    margin-bottom: 30px;
+font-size: 14px;
+font-weight: 500;
+color: var(--dark-gray-2);
+margin: 10px 0 10px 0;
 }
+
 .quarta button{
-    background-color: #c92071;
-    color: #f7f7fc;
+    margin-top: 20px;
+    background-color:var(--primary);
+    color: var(--light-gray-3);
     font-size: 16px;
     font-weight: 700;
     border: none;
     cursor: pointer;
     width: 75%;
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 8px;
 }
-.segunda label{
-    font-size: 10px;
-    margin-bottom: 10px;
-}
-.segunda input{
-    width: 75%;
-    height: 35px;
-    border: none;
-    background-color: #FFFFFF;
-}
-.terceira a{
-    color: #474747;
-    font-size: 14px;
-}
-.icons-login p{
-    color: #474747;
-    font-size: 16px;
-    margin-right: 20px;
 
+
+.esqueciSenha a{
+    color: var(--dark-gray-2);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.icons-login{
+    margin-top: 20px;
+    display: flex;
+    width: 75%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-login p{
+    margin-top: 10px;
+    color: var(--dark-gray-2);
+    font-size: 16px;
+    font-weight: 500;
+}
+.icons-login img{
+    margin-left: 20px;
+    width: 17px;
+    height: 17px;
 }
