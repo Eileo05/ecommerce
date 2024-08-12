@@ -41,6 +41,13 @@
    font-weight: 400;
 }
 
+.link-cadastre{
+   font-weight: 700;
+   font-size: 16px;
+    text-decoration: none;
+    color:var( --light-gray-3) ;
+}
+
 .linkHeader{
     color: var(--dark-gray-2);
     font-size: 16px;
@@ -63,9 +70,9 @@
     border-radius: 8px;
     border: none;
     width: 114px;
-    height: 30px;
+    height: 40px;
     background-color: var(--primary);
-    color:var( --light-gray-3) ;
+
 }
 
 #componet1 button:hover{

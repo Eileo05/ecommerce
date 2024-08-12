@@ -17,8 +17,11 @@ function App() {
           <img src={Image} alt="logo" />
 
           <input type="text" placeholder="Pesquisar produto... "/>
-          <Link to="/Login" className="link">Cadastre-se</Link>
-          <button type="button">Entrar</button>
+          <Link to="/Cadastro" className="link">Cadastre-se</Link>
+          <button type="button">
+          <Link to="/Login" className="link-cadastre">Entrar</Link>
+
+          </button>
           
           <BsCartDash className="icon" />
          

@@ -6,6 +6,9 @@ import Footer from "../componentes/footer/index"
 import Image3 from "../assets/gmailicon.jpeg"
 import Image4 from "../assets/fbicon.png"
 
+import React, { useState } from 'react';
+
+
 
 
 
@@ -13,13 +16,32 @@ import Image4 from "../assets/fbicon.png"
 
 function PaginaLogin() {
 
+    const [email, setEmail] = useState('');
+    const [senha, setSenha] = useState('');
+
+
+    function handleLogin(e){
+        e.preventDefault();
+
+       console.log(email);
+       console.log(senha);
+
+       setEmail('')
+       setSenha('')
+       
+       
+      }
+      
+
+    
+
     return (
         <div id="container1">
 
-          <HeaderMenor/>
+            <HeaderMenor />
 
             <div className="container2">
-                <form className="form">
+                <form className="form" onSubmit={handleLogin}>
                     <div className="text">
                         <div className="primeiro_text">
                             <h2>Acesse sua conta</h2>
@@ -29,10 +51,10 @@ function PaginaLogin() {
                         <div className="segundo_text">
                             <label htmlFor="">Login *</label>
                             <br />
-                            <input type="text" placeholder=" Insira seu login ou e-mail" /> <br />
+                            <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} placeholder=" Insira seu login ou e-mail" /> <br />
                             <label htmlFor="">Senha*</label>
                             <br />
-                            <input type="text" placeholder=" Insira sua senha" />
+                            <input type="text" value={senha} onChange={(e) => setSenha(e.target.value)} placeholder=" Insira sua senha" />
                             <br />
                         </div>
 
@@ -41,7 +63,7 @@ function PaginaLogin() {
                         </div>
 
                         <div className="quarta">
-                            <button>Acessar Conta</button>
+                            <button >Acessar Conta</button>
                         </div>
 
                         <div className="icons-login">
