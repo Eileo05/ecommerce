@@ -1,18 +1,18 @@
 import { DBconfig } from "../Config/db.js";
 //Tabelas
-import { Address } from '../Modules/Address.js';
-import { Brand } from '../Modules/Brand.js';
-import { Category } from '../Modules/Category.js';
-import { Image } from '../Modules/Image.js';
-import { Product } from '../Modules/Product.js';
-import { ProductCategory } from '../Modules/Product_Category.js';
-import { ProductImage } from '../Modules/Product_Image.js';
-import { Requests } from '../Modules/Requests.js';
-import { Sales } from '../Modules/Sales.js';
-import { Telephone } from '../Modules/Telephone.js';
-import { User } from '../Modules/User.js';
-import { UserAddress } from '../Modules/User_Address.js';
-import { UserTelephone } from '../Modules/User_Telephone.js';
+import { Address } from '../Models/Address.js';
+import { Brand } from '../Models/Brand.js';
+import { Category } from '../Models/Category.js';
+import { Image } from '../Models/Image.js';
+import { Product } from '../Models/Product.js';
+import { ProductCategory } from '../Models/Product_Category.js';
+import { ProductImage } from '../Models/Product_Image.js';
+import { Requests } from '../Models/Requests.js';
+import { Sales } from '../Models/Sales.js';
+import { Telephone } from '../Models/Telephone.js';
+import { User } from '../Models/User.js';
+import { UserAddress } from '../Models/User_Address.js';
+import { UserTelephone } from '../Models/User_Telephone.js';
 
 
 
