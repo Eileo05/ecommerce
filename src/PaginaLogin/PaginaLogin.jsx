@@ -1,11 +1,11 @@
 import "../PaginaLogin/PaginaLogin.css";
 import HeaderMenor from "../componentes/headerMenor/index";
-import { Link } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 import Image2 from "../assets/dois_tenis_nike.png";
 import Footer from "../componentes/footer/index"
 import Image3 from "../assets/gmailicon.jpeg"
 import Image4 from "../assets/fbicon.png"
-
+import ScrollToTop from "../componentes/scrollTop";
 import React, { useState } from 'react';
 
 
@@ -14,10 +14,13 @@ import React, { useState } from 'react';
 
 
 
+
 function PaginaLogin() {
+    
 
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
+    const navigate = useNavigate();
 
 
     function handleLogin(e){
@@ -25,10 +28,7 @@ function PaginaLogin() {
 
        console.log(email);
        console.log(senha);
-
-       setEmail('')
-       setSenha('')
-       
+       navigate("/", { replace: true })
        
       }
       
@@ -37,11 +37,11 @@ function PaginaLogin() {
 
     return (
         <div id="container1">
-
+            <ScrollToTop/>
             <HeaderMenor />
 
             <div className="container2">
-                <form className="form" onSubmit={handleLogin}>
+                <form className="form" onSubmit={handleLogin} >
                     <div className="text">
                         <div className="primeiro_text">
                             <h2>Acesse sua conta</h2>
@@ -54,7 +54,7 @@ function PaginaLogin() {
                             <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} placeholder=" Insira seu login ou e-mail" /> <br />
                             <label htmlFor="">Senha*</label>
                             <br />
-                            <input type="text" value={senha} onChange={(e) => setSenha(e.target.value)} placeholder=" Insira sua senha" />
+                            <input type="password" value={senha} onChange={(e) => setSenha(e.target.value)} placeholder=" Insira sua senha" />
                             <br />
                         </div>
 

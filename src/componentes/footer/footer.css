@@ -56,7 +56,16 @@
     gap:20px
 }
 
-.componet_footer2 a:hover{
+li{
+    list-style: none;
+    background-color: var(--dark-gray);
+    color: var(--white);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+
+}
+
+li:hover{
    color:var(--primary) !important;
 }
 

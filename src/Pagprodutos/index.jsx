@@ -3,13 +3,14 @@ import Header from "../componentes/header/App";
 import Footer from "../componentes/footer/index";
 import CardProd from "../componentes/cardsProd/index";
 import CardProd2 from "../componentes/cardsprod2/index";
-
+import ScrollToTop from "../componentes/scrollTop";
 import Form from 'react-bootstrap/Form';
 
 
 function Produtos() {
     return (
         <div id="produtos-container">
+            <ScrollToTop/>
             <Header />
             <section>
 

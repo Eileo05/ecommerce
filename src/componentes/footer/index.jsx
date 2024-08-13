@@ -1,5 +1,7 @@
 import Image from "../../assets/logo (1).png";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import {Link} from "react-router-dom";
+
 import "./footer.css";
 
 
@@ -28,21 +30,21 @@ function Footer() {
 
           <div className="componet_footer2">
             <h2>Informação</h2>
-            <a>Sobre Drip Store</a>
-            <a>Segurança</a>
-            <a>Wishlist </a>
-            <a>Blog</a>
-            <a>Trabalhe conosco</a>
-            <a>Meus Pedidos</a>
+            <li>Sobre Drip Store</li>
+            <li>Segurança</li>
+            <li>Wishlist </li>
+            <li>Blog</li>
+            <li>Trabalhe conosco</li>
+            <li>Meus Pedidos</li>
           </div>
 
           <div className="componet_footer2">
             <h2>Categorias</h2>
-            <a>Camisetas</a>
-            <a>Calças</a>
-            <a>Bonés</a>
-            <a>Headphones</a>
-            <a>Tênis</a>
+            <li>Camisetas</li>
+            <li>Calças</li>
+            <li>Bonés</li>
+            <li>Headphones</li>
+            <li>Tênis</li>
           </div>
 
           <div className="componet_footer2">
