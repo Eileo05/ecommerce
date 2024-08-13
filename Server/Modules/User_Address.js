@@ -11,5 +11,17 @@ export const UserAddress = DBconfig.define("usuarios_Endereco", {
   },
 
 });
-User.belongsToMany(Address, { through: UserAddress });
-Address.belongsToMany(User, { through: UserAddress });
+User.belongsToMany(Address, 
+  { 
+    through: UserAddress,
+    foreignKey: 'usuario_id',   
+    onDelete: 'CASCADE',    
+    onUpdate: 'CASCADE' 
+  });
+Address.belongsToMany(User, 
+  { 
+    through: UserAddress,
+    foreignKey: 'endereco_id',      
+    onDelete: 'CASCADE',    
+    onUpdate: 'CASCADE' 
+  });

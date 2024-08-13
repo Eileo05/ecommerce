@@ -2,7 +2,7 @@ import { Sequelize } from "sequelize";
 import { DBconfig } from "../Config/db.js";
 
 import { Category } from "./Category.js";
-import { Brand } from "./Brand.js";
+import { Image } from "./Image.js";
 
 export const Product = DBconfig.define("produto", {
   ativo: {
@@ -44,5 +44,3 @@ export const Product = DBconfig.define("produto", {
     }
   }
 });
-
-

@@ -29,5 +29,15 @@ export const ProductOption = DBconfig.define("produtos_opcoes", {
   },
 });
 
-Product.hasMany(ProductOption);
-ProductOption.belongsTo(Product);
+Product.hasMany(ProductOption, { 
+
+  foreignKey: 'produto_id', 
+  as: 'productOptions' 
+  
+});
+ProductOption.belongsTo(Product, { 
+
+  foreignKey: 'produto_id', 
+  as: 'product' 
+
+});

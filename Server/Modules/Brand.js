@@ -10,5 +10,14 @@ export const Brand = DBconfig.define("marca", {
   },
 })
 
-Brand.hasMany(Product, { foreignKey: 'brandId', as: 'products' });
-Product.belongsTo(Brand, { foreignKey: 'brandId', as: 'brand' });
+Brand.hasMany(Product, 
+  { 
+    foreignKey: 'marca_id', 
+    as: 'products' 
+
+  });
+Product.belongsTo(Brand, 
+  { 
+    foreignKey: 'marca_id', 
+    as: 'brand' 
+  });
