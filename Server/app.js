@@ -13,4 +13,3 @@ const main = async () => {
 };
 
 main();
-//teste 2
