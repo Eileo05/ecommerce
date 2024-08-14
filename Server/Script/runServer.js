@@ -14,7 +14,7 @@ export const runServer = async () => {
   
   app.listen(port, () => {
     try{
-      console.log(`O servidor está rodando em: http://localhost:${port}`);
+      console.log(`\nO servidor está rodando em: http://localhost:${port}\n`);
   
     } catch (error) {
       console.error(error);
