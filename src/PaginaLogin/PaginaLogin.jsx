@@ -18,16 +18,16 @@ import React, { useState } from 'react';
 function PaginaLogin() {
     
 
-    const [email, setEmail] = useState('');
-    const [senha, setSenha] = useState('');
     const navigate = useNavigate();
 
 
     function handleLogin(e){
         e.preventDefault();
+        const formData= new FormData(e.target);
+        const data= Object.fromEntries(formData.entries())
 
-       console.log(email);
-       console.log(senha);
+       console.log(data);
+ 
        navigate("/", { replace: true })
        
       }
@@ -49,12 +49,12 @@ function PaginaLogin() {
                         </div>
 
                         <div className="segundo_text">
-                            <label htmlFor="">Login *</label>
+                            <label htmlFor="email">Login *</label>
                             <br />
-                            <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} placeholder=" Insira seu login ou e-mail" /> <br />
-                            <label htmlFor="">Senha*</label>
+                            <input type="text" name="email"  placeholder=" Insira seu login ou e-mail" /> <br />
+                            <label htmlFor="senha">Senha*</label>
                             <br />
-                            <input type="password" value={senha} onChange={(e) => setSenha(e.target.value)} placeholder=" Insira sua senha" />
+                            <input type="password" name="senha"  placeholder=" Insira sua senha" />
                             <br />
                         </div>
 

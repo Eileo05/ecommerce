@@ -27,20 +27,15 @@ function FormularioCadastro() {
 
     if (!nome || !cpf || !endereco || !cep || !celular || !bairro || !cidade) {
       alert('Por favor, preencha todos os campos.');
-    return
+      return
     }
 
-    console.log(nome);
-    console.log(cpf);
-    console.log(email);
-    console.log(celular);
-    console.log(endereco);
-    console.log(bairro);
-    console.log(cidade);
-    console.log(cep);
-    console.log(complemento);
+    const formData = new FormData(e.target);
+    const data = Object.fromEntries(formData.entries())
 
-    
+    console.log(data);
+
+
     navigate("/Login", { replace: true })
 
 
